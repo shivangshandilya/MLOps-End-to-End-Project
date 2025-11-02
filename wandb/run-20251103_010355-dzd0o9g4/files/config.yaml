@@ -1,0 +1,57 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            9dwo2gfajwcpg7z48jwuxnujjdcvfuev:
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "983196233728"
+                        used: "234101608448"
+                email: shivangshandilya83@gmail.com
+                executable: c:\Users\Shivang\AppData\Local\Programs\Python\Python313\python.exe
+                git:
+                    commit: d83fe87919396675e35bec9597b971b63875279e
+                    remote: https://github.com/shivangshandilya/MLOps-End-to-End-Project.git
+                gpu: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 2560
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+                      uuid: GPU-585791c3-60be-b182-4cb3-dcce49961c66
+                host: DESKTOP-URPG7NJ
+                memory:
+                    total: "16558178304"
+                os: Windows-11-10.0.26200-SP0
+                program: <python with no main file>
+                python: CPython 3.13.7
+                root: c:\Users\Shivang\OneDrive\Desktop\Projects\MLOps\MLOps-End-to-End-Project
+                startedAt: "2025-11-02T19:33:55.902183Z"
+                writerId: 9dwo2gfajwcpg7z48jwuxnujjdcvfuev
+        m: []
+        python_version: 3.13.7
+        t:
+            "1":
+                - 5
+                - 6
+                - 53
+                - 105
+            "2":
+                - 5
+                - 6
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+            "4": 3.13.7
+            "5": 0.22.3
+            "8":
+                - 1
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64

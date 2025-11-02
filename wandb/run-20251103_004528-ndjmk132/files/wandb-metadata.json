@@ -1,0 +1,38 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.13.7",
+  "startedAt": "2025-11-02T19:15:28.462655Z",
+  "program": "<python with no main file>",
+  "git": {
+    "remote": "https://github.com/shivangshandilya/MLOps-End-to-End-Project.git",
+    "commit": "d83fe87919396675e35bec9597b971b63875279e"
+  },
+  "email": "shivangshandilya83@gmail.com",
+  "root": "c:\\Users\\Shivang\\OneDrive\\Desktop\\Projects\\MLOps\\MLOps-End-to-End-Project",
+  "host": "DESKTOP-URPG7NJ",
+  "executable": "c:\\Users\\Shivang\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "983196233728",
+      "used": "230809567232"
+    }
+  },
+  "memory": {
+    "total": "16558178304"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2560,
+      "architecture": "Ampere",
+      "uuid": "GPU-585791c3-60be-b182-4cb3-dcce49961c66"
+    }
+  ],
+  "cudaVersion": "12.7",
+  "writerId": "v1tlt04a9tcnefpwp01k1np7tegs5fk0"
+}
