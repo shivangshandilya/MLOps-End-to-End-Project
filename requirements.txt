@@ -1,2 +1,11 @@
 dvc
 wandb
+fastapi
+uvicorn
+pandas 
+numpy
+scikit-learn
+xgboost
+joblib
+matplotlib
+seaborn
