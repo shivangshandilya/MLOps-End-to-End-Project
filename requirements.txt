@@ -9,3 +9,5 @@ xgboost
 joblib
 matplotlib
 seaborn
+pydantic
+python-multipart
