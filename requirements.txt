@@ -3,8 +3,8 @@ wandb
 fastapi
 uvicorn
 pandas 
-numpy
-scikit-learn
+numpy == 2.2.6
+scikit-learn == 1.7.1
 xgboost
 joblib
 matplotlib
