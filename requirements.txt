@@ -12,3 +12,4 @@ seaborn
 pydantic
 python-multipart
 pytest
+httpx
