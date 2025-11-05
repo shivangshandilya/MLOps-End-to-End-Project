@@ -8,8 +8,10 @@ scikit-learn == 1.7.1
 xgboost
 joblib
 matplotlib
+streamlit
 seaborn
 pydantic
 python-multipart
 pytest
 httpx
+pydantic
