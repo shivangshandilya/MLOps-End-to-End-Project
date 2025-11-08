@@ -42,7 +42,3 @@ Now the next step involved building an image for our model now we can't deploy o
 
 <img width="1919" height="938" alt="Screenshot 2025-11-04 170156" src="https://github.com/user-attachments/assets/38dfb663-d14f-498a-9a5c-b3e1e6009379" />
 <img width="1914" height="937" alt="Screenshot 2025-11-04 170213" src="https://github.com/user-attachments/assets/58d20f50-df70-43dc-ad3c-723fca02013d" />
-
-
-h
-
