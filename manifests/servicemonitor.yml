@@ -1,0 +1,15 @@
+# servicemonitor.yaml
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: mlops
+  labels:
+    release: kps   
+spec:
+  selector:
+    matchLabels:
+      app: mlops
+  endpoints:
+    - port: http
+      path: /metrics
+      interval: 15s

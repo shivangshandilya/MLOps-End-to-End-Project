@@ -1,0 +1,24 @@
+# this is a cluster.yml file for eksctl to create an EKS cluster (you don't need to write this file as you can just 
+# execute the same via cli but still I have added it for reference)
+
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: mlops-project-1
+  region: us-east-1
+
+vpc:
+  cidr: 10.0.0.0/16  
+
+  nat:
+    gateway: Disable 
+
+nodeGroups:
+  - name: ng-medium
+    instanceType: t3.medium
+    desiredCapacity: 2
+    minSize: 1
+    maxSize: 2
+    volumeSize: 20
+    privateNetworking: false  

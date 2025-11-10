@@ -1,6 +1,8 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, logger
 from fastapi.responses import PlainTextResponse
+from prometheus_fastapi_instrumentator import Instrumentator
 from pydantic import BaseModel, Field
+from fastapi.middleware.cors import CORSMiddleware
 from typing import Dict, List, Optional
 import joblib
 import numpy as np
@@ -9,16 +11,29 @@ import time
 from datetime import datetime
 import logging
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 # Initialize FastAPI app
 app = FastAPI(
     title="IRIS Classification API",
     description="MLOps End-to-End Project - IRIS Species Classification with Multiple Models",
-    version="1.0.0"
+    version="1.0.0"  
 )
+
+origins=[
+    "*"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
+
+Instrumentator().instrument(app).expose(app) 
 
 # Model paths
 MODELS_DIR = Path("models")
