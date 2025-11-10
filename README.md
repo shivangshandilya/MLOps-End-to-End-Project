@@ -69,7 +69,17 @@ And the CD part of our pipeline is handled by ArgoCD which continuously monitors
 
 ### 8. Monitoring & Observability
 
-For this step we leveraged use of [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/)
+For this step we leveraged use of [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/). We made sure to expose our metrics when we created our app so that these metrics can be easily read by Prometheus, and after that we connected Prometheus as our Data Source to Grafana so that we could visualize our metrics clearly.
+
+**Checked if our metrics were being read by Prometheus or not**
+<img width="1908" height="382" alt="Screenshot 2025-11-09 232735" src="https://github.com/user-attachments/assets/43bb771a-f18e-4129-9dc7-e4e80b19e2e3" />
+
+**Visualizing them!**
+<img width="1893" height="932" alt="Screenshot 2025-11-10 121621" src="https://github.com/user-attachments/assets/e8137239-6270-498d-8976-0ecaaf10c99c" />
+
+
+
+
 
 
 
